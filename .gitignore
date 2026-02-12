@@ -1,0 +1,10 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+
+# Arduino artifacts
+build/
+libraries/
+*.bin
+*.elf
