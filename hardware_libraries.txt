@@ -1,0 +1,14 @@
+The following libraries must be installed via the Arduino IDE Library Manager:
+
+1. WiFi (Built-in for ESP32)
+   - Handles network connectivity.
+
+2. HTTPClient (Built-in for ESP32)
+   - Facilitates the POST requests to the Python dashboard.
+
+3. ArduinoJson (by Benoit Blanchon)
+   - Version: 6.x or higher
+   - Required for encoding sensor data into JSON format for the API.
+
+4. DHT sensor library (by Adafruit)
+   - Only required if using the DHT11/DHT22 temperature sensor.
