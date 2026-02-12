@@ -1,15 +1,5 @@
 ## 📉 Problem Statement
-Electric Vehicle (EV) battery packs are highly sensitive to thermal runaway and voltage imbalances. Standard BMS systems often lack a user-friendly interface for remote monitoring. This project bridges that gap by providing a real-time, AI-ready dashboard that allows engineers to monitor pack health from anywhere, preventing catastrophic failures through predictive alerts.
-
-## 🔌 Circuit Logic & Pin Mapping
-To ensure accurate data acquisition, the following hardware configuration is utilized:
-
-| Component | ESP32 Pin | Logic |
-| :--- | :--- | :--- |
-| **Voltage Divider** | GPIO 34 (ADC1) | Scales 0-8.4V (2S battery) to 0-3.3V range for ESP32. |
-| **LM35 Sensor** | GPIO 35 (ADC1) | Linear output of 10mV/°C for precise thermal tracking. |
-| **Status LED** | GPIO 2 | Blinks during WiFi data transmission sync. |
-
+Electric Vehicle (EV) battery packs are highly sensitive to thermal runaway and voltage imbalances. Standard BMS systems often lack a user-friendly interface for remote monitoring. This project bridges that gap by providing a real-time, AI-ready dashboard that allows engineers to monitor pack health from anywhere, preventing catastrophic failures through predictive alert
 
 
 ## 🧠 Software Logic Flow
