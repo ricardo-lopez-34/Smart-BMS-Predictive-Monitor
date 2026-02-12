@@ -6,6 +6,7 @@ import plotly.graph_objects as go
 from datetime import datetime
 import time
 
+
 st.set_page_config(page_title="Pro-BMS Analytics", page_icon="⚡", layout="wide")
 
 st.markdown("""
